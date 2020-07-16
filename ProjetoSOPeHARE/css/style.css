@@ -162,7 +162,7 @@ a:link, a:visited, a:active{
 }
 /*SEÇÃO SOBRE CODIGO ABERTO*/
 .sobreConteudo{
-    width: 75%;
+    width: 90%;
     height: auto;
     overflow: hidden;
     background-color: #fff;
@@ -308,7 +308,7 @@ a:link, a:visited, a:active{
     overflow: hidden;
     padding-bottom: 120px;
     border-top: dotted 1px;
-    background-color: #fff;
+    background-color: #000;
 }
 .section{
     width: 29%;
@@ -522,8 +522,8 @@ a:link, a:visited, a:active{
     letter-spacing: 5px;
 }
 #texto{
-    width: 1000px;
-    height: 420px;
+    width: 920px;
+    min-height: 420px;
     float: left;
     margin-left: 50px;
     margin-right: 50px;
@@ -545,10 +545,11 @@ a:link, a:visited, a:active{
     line-height: 2;
 }
 #textoImagem{
-    width: 25%;
+    width: 300px;
     height: 350px;
     margin-top: 40px;
     float: left; 
+    margin-top: 150px;
 }
 #imagemHistorico{
     width: 100%;
@@ -618,18 +619,20 @@ a:link, a:visited, a:active{
     background-color: #07726C;
 }
 #sistemaImagem{
-    width: 600px;
+    width: 390px;
     height: 435px;
     border-radius: 15%;
-    margin-top: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
     float: left; 
 }
 #sistemaTexto{
-    width: 60%;
-    height: 450px;
-    margin-left: 32px;
+    width: 920px;
+    min-height: 450px;
+    margin-left: 20px;
     float: left; 
     padding-top: 12px;
+   
 }
 #titulo{
     width: 100%;
@@ -676,14 +679,20 @@ a:link, a:visited, a:active{
 }
 /*SEÇÃO SOBRE SOP*/
 #sobreVinicius{
-    width: 75%;
-    height: 5050px;
+    width: 100%;
+    height: 3250px;
     background-color: #fff;
     margin-top: -85px;
     border: 1px solid;
     border-color: #ad03fc;
     border-radius: 20px; 
 }
+
+#planilhasExcel{
+    width: 100%
+    height: 300px;
+}
+
 #definicionExcel p{
     width: 1150px;    
     margin-top: 25px;
@@ -691,10 +700,76 @@ a:link, a:visited, a:active{
     margin-right: 50px;
     line-height: 2;
 }
+
+#formatacionCelulas{
+    width: 70%;
+    height: 290px;
+    float: left;
+}
+
+#formatacionImagem{
+    width: 30%;
+    height: 310px;
+    background-image: url(../imagens/imagem2.png);
+    background-position: right;
+    padding-top: 100px;
+    float: left;
+}
+
+#entradaDeDados{
+    width: 100%;
+    height: 150px;
+    clear: both;
+    padding-top: 10px;
+}
+
+#numeros{
+    width: 100%
+    height: 300px;
+    padding-top: 20px;
+}
+
+#textosVinicius{
+    width: 100%
+    height: 100px;
+    padding-top: 20px;
+    float: left;
+}
+
+#formulas{
+    width: 100%
+    height: 300px;
+}
+
+
+#funcoesVinicius{
+    width: 100%
+    height: 200px;
+    padding-top: 20px;
+}
+
+#condicionais{
+    width: 100%
+    height: 200px;
+}
+
+#graficos{
+    width: 100%
+    height: 200px;
+    padding-top: 20px;
+}
+
+#impressao{
+    width: 100%
+    height: 200px;
+    padding-top: 20px;
+}
+
 .informationsVinicius{
     width: 100%;
-    height: inherit;
+    height: auto;
     background-color: orange;
+    
 }
 .informationsVinicius p{
     width: 100%;
@@ -702,7 +777,7 @@ a:link, a:visited, a:active{
     background-color: aqua;
 }
 .imagemVertical{
-    width: 450px;
+    width: 300px;
     height: 300px;
     float: right;
 }
@@ -772,7 +847,7 @@ a:link, a:visited, a:active{
     font-size: 20px;
     color: #fff;
     padding-top: 70px;
-    margin-left: 335px;
+    margin-left: 200px;
 }
 .imagemDiretorio{
     width: 520px;
