@@ -72,12 +72,12 @@ a:link, a:visited, a:active{
     width: 100%;
     height: auto;
     position: fixed;
-    background-color: RGBA(255,0,4,0.6);
+    background-color: #141414;
 }
 .logo{
-    width: 300px;
+    width: 200px;
     min-height: 75px;
-    background-image: url(../imagens/logo.png);
+    background-image: url(../imagens/senai.logo.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;  
@@ -109,7 +109,7 @@ a:link, a:visited, a:active{
     list-style: none;
 }
 .menuItens:hover{
-    background-color: #068B65;
+    background-color: #717171;
     cursor: pointer;
     border-radius: 12px;
     transition: 1s;
@@ -139,11 +139,11 @@ a:link, a:visited, a:active{
 /*SEÇÃO DO BANNER*/
 #banner{
     width: 100%;
-    min-height: 450px;
+    min-height: 550px;
     background-color: RGBA(13, 196, 217,0.7);
     background-image: url(../imagens/linux.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 130px; 
@@ -152,21 +152,23 @@ a:link, a:visited, a:active{
 }
 .bannerText{
     width: 800px;
-    height: 60px;
-    margin-top: 85px;
-    background-color: #FAE81C;
+    height: 140px;
+    margin-top: 70px;
+    border-radius: 5%;
+    background-color: #7608D7;
 }
 .bannerText h1{
-    font-size: 36px;
+    color: #fff;
+    font-size: 46px;
     text-align: center;
 }
 /*SEÇÃO SOBRE CODIGO ABERTO*/
 .sobreConteudo{
-    width: 90%;
-    height: auto;
+    width: 88%;
+    height: auto;/*7550*/
     overflow: hidden;
     background-color: #fff;
-    margin-top: -80px;
+    margin-top: -100px;
     padding-bottom: 20px;
     border: 1px solid;
     border-color: #ad03fc;
@@ -188,14 +190,16 @@ a:link, a:visited, a:active{
     margin-right: 15px;
     border: 1px solid;
     border-color: #ad03fc;
-    background-color: #DDD01D;
+    background-color: #7608D7;
 }
 .divFormacaoColuna1 h1, h2{
+    color: #fff;
     font-size: 22px;
     margin-bottom: 15px;
     text-align: left;
 }
 .divFormacaoColuna1 p{
+    color: #CEC7D7;
     font-size: 22px;
     margin-bottom: 10px;
     text-align: left;
@@ -205,11 +209,13 @@ a:link, a:visited, a:active{
     height: auto;
 }
 .divFormacaoColuna2 h1, h2{
+    color: #fff;
     font-size: 22px;
     margin-bottom: 10px;
     text-align: center;
 }
 .divFormacaoColuna2 p{
+    color: #CEC7D7;
     font-size: 22px;
     margin-bottom: 10px;
     text-align: left;
@@ -219,11 +225,13 @@ a:link, a:visited, a:active{
     height: auto;
 }
 .divFormacaoColuna3 h1, h2{
+    color: #fff;
     font-size: 22px;
     margin-bottom: 10px;
     text-align: center;
 }
 .divFormacaoColuna3 p{
+    color: #CEC7D7;
     font-size: 22px;
     margin-bottom: 10px;
     text-align: left;
@@ -232,8 +240,6 @@ a:link, a:visited, a:active{
     width: 1180px;
     min-height: 100px;
     clear: both;
-    
-    background-color: coral;
 }
 .imageLinux{
     width: 1185px;
@@ -241,8 +247,6 @@ a:link, a:visited, a:active{
     margin-bottom: 10px;
     margin-top: 30px;
     clear: both; 
-    
-    background-color: aqua;
 }
 .imageNaColuna{
     width: 500px;
@@ -262,13 +266,13 @@ a:link, a:visited, a:active{
 }
 #imageAtualizacao{
     width: 420px;
-    height: 200px;
+    min-height: 200px;
     margin-left: 35px;
     border: 1px solid;
 }
 .unicaLinha, .unicaLinha2{
     width: 1180px;
-    height: 455px;
+    height: auto;
     clear: both;
     padding-top: 40px;
 }
@@ -308,7 +312,7 @@ a:link, a:visited, a:active{
     overflow: hidden;
     padding-bottom: 120px;
     border-top: dotted 1px;
-    background-color: #000;
+    background-color: #fff;
 }
 .section{
     width: 29%;
@@ -363,7 +367,7 @@ a:link, a:visited, a:active{
 .footer{
     width: 100%;
     height: 170px;
-    background-color: RGBA(255,0,4,1);
+    background-color: #000;
 }
 .social-icons{
     left: 72px;
@@ -417,7 +421,7 @@ a:link, a:visited, a:active{
 #sobre{
     width: 100%;
     height: 3500px;
-    background-color: #0F9DE9;
+    background-color: #2F4F4F;
 }
 #topico p{
     width: 100%;
@@ -433,11 +437,12 @@ a:link, a:visited, a:active{
 #informations h1{
     width: 100%;
     height: 55px;
+    color: #fff;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 38px;
     text-align: center;
-    background-color: aqua;
+    background-color: #363636;
 
 }
 #Informations p{
@@ -446,7 +451,6 @@ a:link, a:visited, a:active{
     font-size: 50px;
     margin-top: 25px;
     line-height: 2;
-    background-color: darkblue;
 }
 #informations img{
     width: 700px;
@@ -497,7 +501,7 @@ a:link, a:visited, a:active{
 #historico{
     width: 100%;
     padding-top: 10px;
-    background-color: #4E5759;
+    background-color: #363636;
 }
 .assunto{
     width: 100%;
@@ -517,7 +521,7 @@ a:link, a:visited, a:active{
 }
 .assunto h2{
     font-size: 32px;
-    color: #fff;
+    color: #D4CBDF;
     text-align: center;
     letter-spacing: 5px;
 }
@@ -530,15 +534,15 @@ a:link, a:visited, a:active{
     padding-bottom: 50px;
 }
 #texto h2{
-    width: 1000px;
-    color: #C058EC;
+    width: 920px;
+    color: #fff;
     font-size: 32px;
     text-align: justify;
     letter-spacing: 5px;
 }
 #texto p{
     width: 1000px;
-    color: #999;
+    color: #fff;
     border-radius: 5%;
     text-align: left;
     font-size: 25px;
@@ -547,12 +551,11 @@ a:link, a:visited, a:active{
 #textoImagem{
     width: 300px;
     height: 350px;
-    margin-top: 40px;
-    float: left; 
-    margin-top: 150px;
+     float: left; 
+    padding-top: 120px;
 }
 #imagemHistorico{
-    width: 100%;
+    width: 300px;
     border: 1px solid;
     border-color: burlywood;
     border-radius: 15%;
@@ -574,7 +577,7 @@ a:link, a:visited, a:active{
     margin-left: 20px;
     margin-right: 40px;
     float: left;
-    background-color: #944FB2;
+    background-color: #363636;
 }
 #gerenciador{
     margin-right: 20px;   
@@ -586,12 +589,14 @@ a:link, a:visited, a:active{
 }
 #monotarefa p{
     width: 100%;
+    color: #fff;
     font-size: 25px;
     line-height: 2;
     text-align: left; 
 }
 #multitarefa p{
     width: 100%;
+    color: #fff;
     font-size: 25px;
     line-height: 2;
     text-align: left;
@@ -603,6 +608,7 @@ a:link, a:visited, a:active{
 }
 #gerenciador p{
     width: 100%;
+    color: #fff;
     font-size: 25px;
     line-height: 2;
     text-align: left;
@@ -614,31 +620,31 @@ a:link, a:visited, a:active{
 }
 #sistemaDeArquivos{
     width: 100%;
-    height: 600px;
+    height: auto;
+    overflow: hidden;
     padding-top: 15px;
-    background-color: #07726C;
+    padding-bottom: 70px;
+    background-color: #363636;
 }
 #sistemaImagem{
-    width: 390px;
+    width: 420px;
     height: 435px;
-    border-radius: 15%;
+    border-radius: 5%;
     margin-top: 5px;
     margin-left: 10px;
     float: left; 
 }
 #sistemaTexto{
-    width: 920px;
+    width: 800px;
     min-height: 450px;
-    margin-left: 20px;
+    margin-left: 5px;
     float: left; 
     padding-top: 12px;
-   
 }
 #titulo{
     width: 100%;
     min-height: 450px;  
     border-radius: 15%;
-    background-color: #8BD0CC;
 }
 #titulo h1{
     width: 950px;
@@ -650,6 +656,7 @@ a:link, a:visited, a:active{
 }
 #titulo p{
     width: 72%; 
+    color: #fff;
     font-size: 25px;
     line-height: 2;
     text-align: center;
@@ -660,121 +667,115 @@ a:link, a:visited, a:active{
 /*SEÇÃO DO BANNER*/
 #bannerVinicius{
     width: 100%;
-    height: 650px;
+    height: 885px;
     background-image: url(../imagens/excel.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 250px;    
+    padding-top: 300px;    
 }
 #bannerTextoVinicius{
-    width: 800px;
-    height: 60px;
+    width: 820px;
+    height: 180px;
+    border-radius: 5%;
     background-color: #FAE81C;
 }
 #bannerTextoVinicius h1{
-    font-size: 32px;
+    font-size: 63px;
+    padding-left: 0px;
     text-align: center;
 }
 /*SEÇÃO SOBRE SOP*/
 #sobreVinicius{
     width: 100%;
     height: 3250px;
-    background-color: #fff;
+    background-color: #066F;
     margin-top: -85px;
     border: 1px solid;
     border-color: #ad03fc;
-    border-radius: 20px; 
 }
-
 #planilhasExcel{
     width: 100%
     height: 300px;
 }
-
-#definicionExcel p{
-    width: 1150px;    
-    margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 50px;
-    line-height: 2;
+#planilhasExcel h1{
+   color: #fff;
+    text-align: center;
 }
-
+#definicionExcel p{
+    width: 100%;    
+    margin-top: 25px;
+    line-height: 2;
+    background-color: #fff;
+}
 #formatacionCelulas{
     width: 70%;
     height: 290px;
     float: left;
 }
-
 #formatacionImagem{
     width: 30%;
     height: 310px;
     background-image: url(../imagens/imagem2.png);
-    background-position: right;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     padding-top: 100px;
     float: left;
+    background-color: #fff;
 }
-
 #entradaDeDados{
     width: 100%;
     height: 150px;
     clear: both;
     padding-top: 10px;
 }
-
 #numeros{
     width: 100%
     height: 300px;
     padding-top: 20px;
 }
-
 #textosVinicius{
     width: 100%
     height: 100px;
     padding-top: 20px;
     float: left;
 }
-
 #formulas{
     width: 100%
     height: 300px;
 }
-
-
 #funcoesVinicius{
     width: 100%
     height: 200px;
     padding-top: 20px;
 }
-
 #condicionais{
     width: 100%
     height: 200px;
 }
-
 #graficos{
     width: 100%
     height: 200px;
     padding-top: 20px;
 }
-
 #impressao{
     width: 100%
     height: 200px;
     padding-top: 20px;
 }
-
 .informationsVinicius{
     width: 100%;
     height: auto;
-    background-color: orange;
-    
+    background-color: #363636;
 }
 .informationsVinicius p{
     width: 100%;
     height: 250px;
-    background-color: aqua;
+    border: 1px solid;
+    border-color: blueviolet;
+    background-color: #fff;
 }
 .imagemVertical{
     width: 300px;
@@ -787,7 +788,7 @@ a:link, a:visited, a:active{
 /*SEÇÃO DO BANNER*/
 #bannerM{
     width: 100%;
-    height: 800px;
+    min-height: 800px;
     background-image: url(../imagens/codigoFechado.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -797,9 +798,9 @@ a:link, a:visited, a:active{
 }
 #bannerTexto1{
     width: 800px;
-    height: 240px;
+    height: auto;
     margin-top: 135px;
-    background-color: RGBA(0,0,205,0.6)
+    background-color: RGBA(0,0,205,0.6);
 }
 #bannerTexto1 h1{
     font-size: 32px;
@@ -814,7 +815,7 @@ a:link, a:visited, a:active{
     width: 100%;
     height: 300px;
     background-color: #fff;
-    border-radius: 20px; 
+    border-radius: 25px; 
     padding-top: 20px;
 }
 .definicaoM h1{
@@ -833,7 +834,8 @@ a:link, a:visited, a:active{
 }
 .navegacao{
     width: 100%;
-    height: 730px;
+    height: auto;
+    padding-bottom: 98px;
     background-color: #363636;
 }
 .navegacao h1{
@@ -851,7 +853,7 @@ a:link, a:visited, a:active{
 }
 .imagemDiretorio{
     width: 520px;
-    height: 330px;
+    min-height: 330px;
     margin-top: 45px;
 }
 /*Seção Com Imagem*/
@@ -863,13 +865,13 @@ a:link, a:visited, a:active{
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 70px;    
+    padding-top: 70px;  
 }
 .SecaoTexto-imagem{
     width: 800px;
-    height: 520px;
+    min-height: 520px;
     margin-top: 2px;
-    background-color: RGBA(255,69,0,0.6)
+    background-color: RGBA(0,0,205,0.6);
 }
 .SecaoTexto-imagem h1{
     font-size: 32px;
@@ -883,7 +885,7 @@ a:link, a:visited, a:active{
 /*SEÇÃO PRODUTO DO SITE*/
 #section{
     width: 28%;
-    height: 510px;
+    min-height: 510px;
     border: 1px solid;
     border-color: #999;
     border-radius: 6px;
@@ -895,7 +897,7 @@ a:link, a:visited, a:active{
 }
 .subtitle{
     width: 100%;
-    height: 110px;
+    min-height: 108px;
 }
 .subtitle h1{
     text-align: left;
@@ -911,7 +913,7 @@ a:link, a:visited, a:active{
 }
 .produtoTexto{
     width: 100%;
-    height: 142px;
+    height: auto;
 }
 .produtoTexto h1{
     font-size: 20px;
@@ -927,7 +929,8 @@ a:link, a:visited, a:active{
 }
 .navegaca{
     width: 100%;
-    height: 930px;
+    height: auto;
+    padding-bottom: 50px;
     background-color: #363636;
 }
 .navegaca h1{
